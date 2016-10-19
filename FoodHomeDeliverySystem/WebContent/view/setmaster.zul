@@ -130,10 +130,10 @@
 											</rows>
 										</grid>
 										<div align="center">
-											<button label="Add items"
+											<button label="Add items" onClick="@command('onClickAddItems')"
 												sclass="mybutton" />
 												
-											<button label="Save Set"
+											<button label="Save Set" onClick="@command('onClickSaveSet')"
 												sclass="mybutton" />	
 										</div>
 									</div>
